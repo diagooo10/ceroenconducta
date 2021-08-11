@@ -1,0 +1,630 @@
+/* */
+*{
+    margin: 0;
+    padding:0;
+}
+html{   
+    box-sizing:border-box ;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+/* fondo de la pagina*/
+body{
+    
+    background-image: url(/img/guitarra1.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin:0px;
+  /*  font-family: monospace;*/
+}
+/*quienes somos*/
+h1{
+    color: rgb(253, 253, 253);
+    font-size: 20px;
+    margin: 30px ;
+    text-align: center;
+}
+@media (min-width:360px){
+    h1{
+        font-size: 25px;
+    }
+}
+@media (min-width:768px){
+    h1{
+        font-size: 40px;
+    }
+}
+h5 {
+    text-align: center;
+     margin: 40px;
+    color: rgb(252, 251, 251);
+    font-size: 20px;
+} 
+@media  (min-width:769xp){
+    h5{
+        margin:100xp;
+        font-size: 30px;
+    }
+}
+
+/*Los esperamos  los dias viernes y sabados de 20:00 a 22:00hs */
+h6 {
+    width:100vw;
+    margin: 0px;
+    color:rgb(19, 18, 18);
+    background-color: rgba(211, 206, 206, 0.877);
+}
+@media (min-width: 768px ){
+    h6{
+        margin:0px 0px 0px 0px;
+        width:100vw;
+    }
+}
+
+/*barra de navegacion altura , ancho y color*/
+.nav-bg{
+    width: 100vw;
+    height: 255px;
+    background-color: rgba(211, 205, 205, 0.329);
+    margin:0px;
+}
+@media (min-width: 769px){
+    .nav-bg{
+        width:100vw;
+        height: 60px;
+    
+    }
+
+}
+/* los li en row*/
+nav{
+    width: 100vw;
+display:flex;
+flex-direction: column;
+align-items: center;
+padding: 14px;
+text-decoration: none;
+z-index: 1;
+position: relative;
+margin:0px;
+}
+@media (min-width: 769px){
+   nav{
+       width: 100vw;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 0px;
+   }
+}
+
+nav li a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    /*color: rgb(100, 100, 100);*/
+    position:relative;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 0xp;
+}
+/*color de barra de navegacion cuando pasa el puntero*/
+nav li a:hover{
+    background-color: rgba(199, 199, 196, 0.911);
+    color: rgb(36, 36, 36);
+    border-radius: 4px;
+    padding-top:2px 0px 0px 0px;
+    margin-top: 4px;
+    height: 30px;
+    font-size: 20px;
+    transition: all 3.s;
+}
+
+ul,
+li {
+    list-style: none;
+    display:block;
+}
+nav li ul{
+position:absolute;
+display:none;
+float:left;
+width: 120px;
+}
+nav li:hover > ul{
+    display:inline;
+    color: rgb(255, 255, 255);
+    
+}
+@media (min-width:768px){
+    nav li:hover > ul{
+        display:block;
+        color: rgb(255, 255, 255);
+    }
+}
+
+/*cuadro de texto*/
+nav  input {
+    width: 300px;
+    margin: 3px;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(107, 105, 105);
+    font-weight: bold;
+}
+@media (min-width:769px){
+   nav input{
+    width: 160px;
+    height: 30px;
+   }
+}
+
+/*imagen de la barra "logo:*/
+nav a img{
+    width:120px ;
+    height: 60px;
+margin: 0px 0px 5px 0px;
+padding: 0px 0px 0px 0px;
+}
+
+
+/* parrafo */
+
+.historia .parrafos h2{
+    margin: 5px 0px 5px 0px;
+    padding:0px;
+    font-size: 30px;
+    text-align: center;
+}
+.historia .parrafos p {
+    margin: 10px 10px 0px 10px;
+    padding: 0px 5px 0px 5px;
+}
+
+.historia{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    
+}
+.historia .parrafos{
+        background-color: rgba(148, 147, 146, 0.384);
+        width: 200px;
+        height: 1200px;
+        color:rgb(255, 255, 255);
+        text-align: center;
+        border-radius: 15px;
+        font-size: 15px;
+   
+}
+.interesa{
+    
+    background-color: rgba(148, 147, 146, 0.384);
+    width: 200px;
+    height: 200px;
+    color:rgb(255, 255, 255);
+    text-align: center; 
+    border-radius: 15px;
+    font-size: 15px;
+}
+.map iframe{
+    width:  50px;
+    height: 100px;
+    border-radius: 5px;
+    margin: 0px 0px 0px 0px;
+}
+
+@media (min-width:360px){
+    .historia{
+        display: flex;
+        flex-direction: column;
+         align-items: center;
+        
+    }
+    .historia .parrafos{
+        background-color: rgba(148, 147, 146, 0.384);
+        width: 330px;
+        height: 1200px;
+        color:rgb(255, 255, 255);
+        text-align: center;
+        border-radius: 15px;
+        font-size: 15px;
+    }
+    .grupo{
+        margin-top: 60px;
+    }
+   
+    .interesa {
+        width: 330px;
+        height: 265px;
+        color:rgb(255, 255, 255);
+        background-color: rgba(148, 147, 146, 0.384);
+        text-align: center; 
+        border-radius: 15px;
+        font-size: 15px;
+        padding:5px;
+      
+    }
+    .map iframe{
+        width: 330px;
+        height: 350px;
+        border-radius: 5px;
+        margin: 0px 0px 0px 0px;
+      
+    }
+    .map{
+        margin:70px 0px 0px 0px;
+    }
+    .formulario {
+        width:250px;
+        background:rgba(255, 255, 255, 0.685) ;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        margin-top: 10px;
+        margin: 5px;
+        border-radius: 7px;
+    }
+
+}
+@media (min-width:768px){
+    .historia{
+        display: flex;
+        flex-direction: column;
+         align-items: center;
+        
+    }
+    .historia .parrafos{
+        background-color: rgba(148, 147, 146, 0.384);
+        width: 700px;
+        height: 655px;
+        color:rgb(255, 255, 255);
+        text-align: center;
+        border-radius: 15px;
+        font-size: 15px;
+    }
+    .grupo{
+        margin-top: 60px;
+    }
+   
+    .interesa {
+        width: 700px;
+        height: 150px;
+        color:rgb(255, 255, 255);
+        background-color: rgba(148, 147, 146, 0.384);
+        text-align: center; 
+        border-radius: 15px;
+        font-size: 15px;
+        padding:5px;
+      
+    }
+    .map iframe{
+        width: 500px;
+        height: 450px;
+        border-radius: 5px;
+        margin: 0px 0px 0px 0px;
+      
+    }
+    .map{
+        margin:70px 70px 0px 100px;
+    }
+    .formulario {
+        width: 450px;
+        margin:0px 0px;
+        background:rgba(255, 255, 255, 0.685) ;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        margin-top: 90px;
+        border-radius: 7px;
+      }
+
+}
+
+@media (min-width:1140px){
+    .historia{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 10px;
+    }
+    .historia .parrafos{
+        background-color: rgba(148, 147, 146, 0.384);
+        width: 700px;
+        height: 880px;
+        color:rgb(255, 255, 255);
+        text-align: center;
+        border-radius: 15px;
+        font-size: 15px;
+    }
+    .grupo{
+        margin: 0px 10px 10px 10px;
+    }
+    .interesa{
+    
+        background-color: rgba(148, 147, 146, 0.384);
+        width: 600px;
+        height: 200px;
+        color:rgb(255, 255, 255);
+        text-align: center; 
+        border-radius: 15px;
+        font-size: 15px;
+    }
+     .map iframe{
+        width: 600px;
+        height: 450px;
+} 
+.map{
+    margin:60px 0px 0px 0px;
+}
+.formulario {
+    width: 450px;
+    margin:0px 0px;
+    background:rgba(255, 255, 255, 0.685) ;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 90px;
+    border-radius: 7px;
+}
+}
+@media (min-width:1170px){
+    .historia .parrafos{
+        height: 800px;
+    }
+}
+@media (min-width:1200px){
+    .historia .parrafos{
+        height: 780px;
+    }
+    
+}
+@media (min-width:1250px){
+    .historia .parrafos{
+        height: 730px;
+    }
+    
+}
+@media (min-width:1280px){
+    .historia .parrafos{
+        height: 750px;
+    }
+    
+}
+@media (min-width:1300px){
+    .historia .parrafos{
+        height: 700px;
+    }
+    
+}
+@media (min-width:1600px){
+    .historia{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 20px;
+    }
+    .historia .parrafos{
+        background-color: rgba(148, 147, 146, 0.384);
+        width: 700px;
+        height: 700px;
+        color:rgb(255, 255, 255);
+        text-align: center;
+        border-radius: 15px;
+        font-size: 15px;
+    }
+    .grupo{
+        margin-top: 0px;
+    }
+    .interesa{
+    
+        background-color: rgba(148, 147, 146, 0.384);
+        width: 700px;
+        height: 150px;
+        color:rgb(255, 255, 255);
+        text-align: center; 
+        border-radius: 15px;
+        font-size: 15px;
+    }
+     .map iframe{
+        width: 600px;
+        height: 450px;
+    } 
+    .map{
+        margin:10px 0px 0px 80px;
+    }
+    .formulario {
+        width: 450px;
+        margin:0px 0px;
+        background:rgba(255, 255, 255, 0.685) ;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        margin-top: 90px;
+        border-radius: 7px;
+    }
+}
+
+/* te interesa presentar tu banda */
+
+.interesa p{
+    width: 100%;
+    margin:0px 0px 0px 0px;
+    padding: 4px 0px 4px 0px;
+}
+.interesa h2 {
+    padding: 14px 0px 0px 0px;
+}
+
+/*formulario real*/
+.formulario {
+    width:450px;
+    margin:auto;
+    background:rgba(255, 255, 255, 0.685) ;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 90px;
+    border-radius: 7px;
+}
+
+h2{
+    margin:0px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.formulario input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding:7px;
+    box-sizing: border-box;
+    font-size: 15px;
+    border:none;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+#boton{
+    background-color: rgba(0, 0, 0, 0.685);
+    color: rgb(255, 255, 255);
+    padding: 12px;
+}
+#boton:hover {
+    cursor:pointer;
+    background-color: rgba(34, 33, 33, 0.548);
+    color: rgb(255, 250, 250);
+}
+
+ @media (max-width:480px){
+    .formulario {
+        width: 100%;
+    }
+}  
+
+/* REDES SOCIALES*/
+.redes {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin: 50px 50px 50px  50px;
+    padding: 0px 0px;
+}
+@media (min-width:360px){
+    .redes{
+        width: 60;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin:50px 50px 50px  50px;
+    } 
+}
+@media (min-width:769px){
+    .redes{
+        width: 60;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 0px 200px 0px 200px;
+    } 
+}
+
+@media (min-width:1140px){
+    .redes{
+        width: 60;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 50px 400px 50px 400px;
+    } 
+}
+
+
+@media (min-width:1250px){
+    .redes{
+        width: 60;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 50px 500px 50px 500px;
+    } 
+}
+@media (min-width:1400px){
+    .redes{
+        width: 60;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 50px 600px 50px 600px;
+    } 
+}
+/* LOGO DEL FINAL DE LA PAGINA*/
+.logo2{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px 0px 0px 0px;
+}
+
+logo2 img {
+    width:200px;
+        height: 90px;
+}
+
+
+@media (min-width:360px){
+    .logo2 img{
+       
+        width:270px;
+        height:160px;
+    }  
+}
+@media (min-width:769px){
+    .logo2 img{
+       
+        width:300px;
+        height:170px;
+    }  
+}
+@media (min-width:1140px){
+    .logo2 img{
+       
+        width:320px;
+        height:180px;
+    }  
+}
+
+
+/* FONDO DE DERECHOS RESERVADOS*/
+body footer{
+width: 100vw;
+height: 150px;
+color: rgb(253, 253, 253);
+background-color: rgba(253, 252, 252, 0.295);
+}
+
+/*DERECHOS RESERVADOS*/
+.derechos{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px 10px 10px 10px;
+    margin:0px;
+}
+ @media (min-width:360px){
+    .derechos{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 2px 2px 0px 2px;  
+       padding: 30px 5px 0px 5px;
+    }
+}  
+@media (min-width:769px){
+        .derechos{
+            display:flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+           margin: 2px 40px 0px 40px;
+           padding: 40px 60px 60px 60px;
+        }
+    } 
