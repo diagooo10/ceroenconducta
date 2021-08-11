@@ -6,7 +6,7 @@
 /* fondo de la pagina*/
 body{
     
-    background-image: url(/img/guitarra1.jpg);
+    background-image: url(../img/guitarra1.jpg);
     background-size: 100vw 100vh;
     background-attachment: fixed;
     margin:0px;
