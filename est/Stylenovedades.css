@@ -13,14 +13,6 @@ body{
   /*  font-family: monospace;*/
 }
 /*Los esperamos  los dias viernes y sabados de 20:00 a 22:00hs */
-h6 {
-    width:100vw;
-    height: 19px;
-    padding: 2px 0px 1px 0px;
-    margin:0px 0px 0px 0px;
-    color:rgb(19, 18, 18);
-    background-color: rgba(211, 206, 206, 0.877);
-}
 
 h5 {
     display:flex;
