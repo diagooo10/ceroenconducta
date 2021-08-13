@@ -24,16 +24,11 @@ h4{
 /* EVOLUCION DEL ROCK / NOVEDADES / SEGUINOS EN */
 h5 {
     text-align: center;
-     margin: 40px;
+     margin: 60px;
     color: rgb(252, 251, 251);
-    font-size: 20px;
+    font-size: 27px;
 } 
-@media  (min-width:769xp){
-    h5{
-        margin:80xp;
-        font-size: 30px;
-    }
-}
+
 /*Los esperamos  los dias viernes y sabados de 20:00 a 22:00hs */
 h6 {    
     width:100vw;
@@ -277,7 +272,113 @@ padding: 0px 0px 0px 0px;
         margin: 0px 150px 0px 300px;
         text-align: center;
     }
-} 
+}
+/*PUBLICIDAD DE TU BANDA*/
+.sumate{
+    width: 280px;
+    height: 500px;
+    background-color: rgba(148, 147, 146, 0.384);
+    border-radius: 10px;
+    color:white;
+    margin:50px 10px;
+}
+.sumate h3 {
+    width:100%;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 32px;
+
+}
+.sumate p {
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    margin: 10px;
+}
+@media (min-width:360px){
+    .sumate{
+        width: 340px;
+        height: 345px;
+        margin:auto;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    
+    .sumate p {
+        width: 100%;
+        text-align: center;
+        font-size: 19px;
+        margin:2px;
+    }
+}
+@media (min-width:550px){
+    .sumate{
+        width: 550px;
+        height: 250px;
+        margin:auto;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    
+    .sumate p {
+        width: 100%;
+        text-align: center;
+        font-size: 19px;
+        margin:2px;
+    }
+}
+
+
+@media (min-width:769px){
+    .sumate{
+        width: 600px;
+        height: 250px;
+        background-color: rgba(148, 147, 146, 0.384);
+        border-radius: 10px;
+        color:white;    
+    }
+  
+}
+
+@media (min-width:1140px){
+    .sumate{
+        width: 700px;
+        height: 205px;
+        background-color: rgba(148, 147, 146, 0.384);
+        border-radius: 10px;
+        color:white;    
+    }
+  
+
+}
+
+@media (min-width:1600px){
+    .sumate{
+        width: 780px;
+        height: 270px;
+        background-color: rgba(148, 147, 146, 0.384);
+        border-radius: 10px;
+        color:white;
+        margin:auto;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .sumate h3 {
+        width:100%;
+        text-align: center;
+        margin-top: 5px;
+        font-size: 32px;
+    
+    }
+    .sumate p {
+        width: 100%;
+        text-align: center;
+        font-size: 22px;
+        margin: 10px;
+    }
+}
+
+
 
 /* 3 IMAGENES*/
 .imagenes {
