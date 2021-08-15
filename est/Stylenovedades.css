@@ -148,8 +148,9 @@ padding: 0px 0px 0px 0px;
 .card-img-overlay{
     width: 100vw;
 }
-.fito img{
-    width: 100vw;
+.primera img{
+    width:100vw;
+    height:705px;
 }
 /* 3 imagenes 1 grande 2 chicas*/
 .todas{
