@@ -5,22 +5,12 @@
 }
 /*fondo de la pag */
 body{
-    
     background-image: url(../img/guitarra1.jpg);
     background-size: 100vw 100vh;
     background-attachment: fixed;
     margin:0px;
   /*  font-family: monospace;*/
 }
-/* @media (min-width:360xp){
-    body{
-        background-image: url(/img/guitarra1.jpg);
-        background-size: 100vw 100vh;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        margin:0px;
-    }
-} */
 
 
 /*titulo*/
