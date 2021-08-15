@@ -171,11 +171,21 @@ padding: 0px 0px 0px 0px;
         margin:0px 0px;
     }
     .slide img{
+        height:70vh;
+    }
+
+}
+@media (min-width: 1140px){
+    .slide { 
+        width: 100vw;
+        margin-top: 0px;
+        margin:0px 0px;
+    }
+    .slide img{
         height:90vh;
     }
 
 }
-
 
 
 /* COLOR DE FONDO DEL REPRODUCTOR*/
