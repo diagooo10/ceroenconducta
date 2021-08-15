@@ -12,7 +12,9 @@ body{
     margin:0px;
   /*  font-family: monospace;*/
 }
-
+h4{
+    text-align: center;
+}
 
 
 h5 {
@@ -145,14 +147,39 @@ nav a img{
 margin: 0px 0px 5px 0px;
 padding: 0px 0px 0px 0px;
 }
-
+/*primera imagen */s
 
 .card-img-overlay{
     width: 100vw;
 }
 .primera img{
     width:100vw;
-    height:705px;
+    height:380px;
+}
+@media (min-width: 360px){
+    .card-img-overlay{
+        width: 100vw;
+        height: 50px;
+    }
+    .primera img{
+        width:100vw;
+        height:400px;
+    }
+    
+}
+@media (min-width: 769px){
+    .primera img{
+        width:100vw;
+        height:705px;
+    }
+    
+}
+@media (min-width: 1600px){
+    .primera img{
+        width:100vw;
+        height:705px;
+    }
+    
 }
 /* 3 imagenes 1 grande 2 chicas*/
 .todas{
