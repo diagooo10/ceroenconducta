@@ -21,18 +21,6 @@ body{
         margin:0px;
     }
 } */
-@media(min-width:900px){
-    body{
-    
-    background-image: url(/img/guitarra1.jpg);
-    background-size: 125vw 120vh;
-  
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    margin:0px;
-  /*  font-family: monospace;*/
-}
-}
 
 
 /*titulo*/
