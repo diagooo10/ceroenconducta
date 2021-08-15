@@ -12,15 +12,17 @@ body{
     margin:0px;
   /*  font-family: monospace;*/
 }
-/*Los esperamos  los dias viernes y sabados de 20:00 a 22:00hs */
+
+
 
 h5 {
-    display:flex;
-   flex-direction: row;
-justify-content: center;
-color: rgb(252, 251, 251);
-   font-size: 25px;
-}
+    text-align: center;
+     margin: 50px;
+    color: rgb(252, 251, 251);
+    font-size: 27px;
+} 
+
+
 hr{
     color: rgb(252, 251, 251);
     width:100vw;
@@ -273,7 +275,7 @@ logo2 img {
         display:flex;
         flex-direction: row;
         justify-content: space-around;
-        margin: 50px 400px 50px 400px;
+        margin: 0px 400px 50px 400px;
     } 
 }
 
@@ -284,7 +286,7 @@ logo2 img {
         display:flex;
         flex-direction: row;
         justify-content: space-around;
-        margin: 50px 500px 50px 500px;
+        margin: 0px 500px 50px 500px;
     } 
 }
 @media (min-width:1400px){
@@ -293,7 +295,7 @@ logo2 img {
         display:flex;
         flex-direction: row;
         justify-content: space-around;
-        margin: 50px 600px 50px 600px;
+        margin: 0px 600px 50px 600px;
     } 
 }
 /*fondo de derechos*/
